@@ -1,0 +1,17 @@
+.bg {
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.the_clock {
+    background-color: #200e0e;
+    color: #f4d1d1;
+    min-width: 320px;
+    font-size: 32px;
+    text-align: center;
+    padding: 12px;
+    border-radius: 3px;
+    font-family: 'Orbitron', sans-serif;
+}
+
