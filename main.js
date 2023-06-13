@@ -5,7 +5,7 @@ function displayTime() {
   let min = date.getMinutes(); // counting 0 to 59
   let sec = date.getSeconds(); // counting 0 to 59
 
-  // shift between AM and PM using an if clause
+  // shift between AM and PM using if clause
   let amPm = "AM";
   if (hour >= 12) {
     amPm = "PM";
@@ -18,7 +18,7 @@ function displayTime() {
     hour -= 12;
   }
   // place a 0 before single digit hour/minute/second counts
-  // using a ternary operators
+  // using ternary operators
   hour = hour < 10 ? "0" + hour : hour;
   min = min < 10 ? "0" + min : min;
   sec = sec < 10 ? "0" + sec : sec;
