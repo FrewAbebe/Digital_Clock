@@ -6,6 +6,7 @@ function displayTime() {
   let sec = date.getSeconds(); // counting 0 to 59
 
   // shift between AM and PM using if clause
+  // AM/PM should be first logic
   let amPm = "AM";
   if (hour >= 12) {
     amPm = "PM";
@@ -24,7 +25,7 @@ function displayTime() {
   sec = sec < 10 ? "0" + sec : sec;
 
   // show count on page
-  document.getElementsByClassName("the_clock")[0].innerHTML =
+  document.getElementsByClassName("clock_face")[0].innerHTML =
     hour + " : " + min + " : " + sec + " " + amPm;
 }
 

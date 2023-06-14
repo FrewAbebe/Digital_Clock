@@ -1,10 +1,10 @@
-.bg {
+.container {
     min-height: 120px;
     display: flex;
     justify-content: center;
 }
 
-.the_clock {
+.clock_face {
     background-color: #200e0e;
     color: #f4d1d1;
     min-width: 320px;
